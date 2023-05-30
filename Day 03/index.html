@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 03</title>
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <p>Triangle:</p>
+        <button onclick="{
+            const base = Number(prompt('Enter base:'))
+            const height = Number(prompt('Enter height:'))
+            alert(`The area of the triangle is ${(base * height) / 2}`);
+        }">Area</button>
+        <button onclick="{
+            const a = Number(prompt('Enter side a:'))
+            const b = Number(prompt('Enter side b:'))
+            const c = Number(prompt('Enter side c:'))
+            alert(`The area of the triangle is ${a + b + c}`);
+        }">Perimeter</button>
+    </div>
+    <div>
+        <p>Rectangle:</p>
+        <button onclick="{
+            const base = Number(prompt('Enter base:'))
+            const height = Number(prompt('Enter height:'))
+            alert(`The area of the rectangle is ${base * height}`);
+        }">Area</button>
+        <button onclick="{
+            const base = Number(prompt('Enter base:'))
+            const height = Number(prompt('Enter height:'))
+            alert(`The perimeter of the rectangle is ${(base + height) * 2}`);
+        }">Perimeter</button>
+    </div>
+    <div>
+        <p>Circle:</p>
+        <button onclick="{
+            const PI = Math.PI.toFixed(2)
+            const radius = Number(prompt('Enter circle radius:'))
+            const area = PI * radius**2
+            alert(`The area of the circle is ${area}`);
+        }">Area</button>
+        <button onclick="{
+            const PI = Math.PI
+            const radius = Number(prompt('Enter circle radius:'))
+            const result = 2 * PI * radius
+            alert(`The circumference of the circle is ${result.toFixed(2)}`);
+        }">Circumference</button>
+    </div>
+    <div>
+        <p>Pay per person:</p>
+        <button onclick="{
+            const hours = Number(prompt('Enter hours:'));
+            const rate = Number(prompt('Enter rate per hour:'));
+            alert(`Your weekly earning is ${hours * rate}`)
+        }">Weekly earning</button>
+    </div>
+</body>
+
+</html>
