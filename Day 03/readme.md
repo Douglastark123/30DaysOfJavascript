@@ -1,5 +1,5 @@
 # 30 Days Of JavaScript: Boolean, Operators, Date
-[<< Day 02](../Day%2002/readme.md) | [Day 04 >>](../Day%2004/readme.md)
+[<< Day 02](../Day%2002/readme.md) || [Day 04 >>](../Day%2004/readme.md)
 ![Thirty Days Of Javascript](../images//day_03.png)
 
 - [📔 Day 03](#📔-day-03-recappinng)
@@ -114,4 +114,4 @@ now.getSeconds(); // Returns seconds.
 now.getTime(); // Returns time in seconds since January 01, 1970 UTC.
 ```
 
-[<< Day 02](../Day%2002/readme.md) | [Day 04 >>](../Day%2004/readme.md)
+[<< Day 02](../Day%2002/readme.md) || [Day 04 >>](../Day%2004/readme.md)

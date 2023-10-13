@@ -6,19 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 04</title>
+    <script src="main.js" defer></script>
 </head>
+<style>
+    .warning {
+        color: red;
+    }
+</style>
 
 <body>
+    <div>
+        <button onclick="{
+            const age = Number(prompt('Enter your age:'));
+            if (age>= 18) {
+                alert('You are old enough to drive.')
+            } else {
+                alert(`You are left with ${18 - age} years to drive.`)
+            };
+        }">Drive</button>
+    </div>
+    <div>
+        <p></p>
+        <button onclick="{
+            const age = Number(prompt('Enter your age:'));
+            const myAge = 21;
+            if (age > myAge) {
+                alert(`You are ${age - myAge} older than me.`)
+            } else if (age === myAge) {
+                alert(`You are the same age as me.`)
+            } else {
+                alert(`You are ${Math.abs(age - myAge)} years younger than me.`)
+            }
+        }">U older than me?</button>
+    </div>
+    <div>
+        <p></p>
+        <button onclick="{
+            const num = Number(prompt('Enter a number:'));
 
-    <script>
-        const age = Number(prompt("Enter your age:"));
+            const result = num % 2 === 0 ? `${num} is an even number` : `${num} is an odd number`;
 
-        if (age >= 18) {
-            alert("You are old enough to drive.")
-        } else {
-            alert(`You are left with ${18 - age} years to drive.`)
-        }
-    </script>
+            alert(result)
+        }">is Number odd ?</button>
+    </div>
+    <hr>
+
+    <div>
+        <p>Grade calculator</p>
+        <form id="gradeForm">
+            <label for="score">Enter score:</label>
+            <input type="number" id="score" min="0" max="100" required />
+            <button type="submit">Calculate Grade</button>
+        </form>
+        <p id="myGrade">Score still to be entered</p>
+    </div>
+    <hr>
+
+    <div>
+        <p>what season it is?</p>
+        <form id="monthSeasonForm">
+            <label for="month">Select month:</label>
+            <select name="month" id="month" required>
+                <option value="" selected disabled>-- Please choose an option --</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            <button type="submit">Season is</button>
+        </form>
+        <p id="season">Season still to be entered</p>
+    </div>
+    <hr>
+
+    <div>
+        <p>work day or weekend day?</p>
+        <form id="weekOrWeekendForm">
+            <label for="day">Enter day:</label>
+            <input type="text" id="day" placeholder="eg:.wednesday">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="weekOrWeekend">Day still to be entered</p>
+    </div>
+    <hr>
+
+    <div>
+        <form id="daysInAMonthForm">
+            <fieldset>
+                <legend>days in a month?</legend>
+                <div>
+                    <label>year type:</label> <br>
+                    <input type="radio" id="normalYear" name="year-type" value="normal" checked>
+                    <label for="normalYear">normal year</label>
+
+                    <input type="radio" id="leapYear" name="year-type" value="leap">
+                    <label for="leapYear">leap year</label>
+                </div>
+                <!-- <div>
+                    <label for="day">Enter a month:</label>
+                    <input type="text" id="day" placeholder="eg:.january">
+                </div> -->
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        <p id="daysInAMonth">Month still to be entered</p>
+    </div>
+    <hr>
 </body>
 
 </html>

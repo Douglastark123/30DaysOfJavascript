@@ -3,9 +3,26 @@ My journey with the '30 Days Of Javascript' challenge
 
 | Day |                 Topics                  |
 | --- | :-------------------------------------: |
-| 01  |   [Introduction](./readme.md)  |
+| 01  |    [Introduction](./readme.md)  |
 | 02  |    [Data Types](./Day%2002/readme.md)     |
 | 03  |    [Boolean, Operators, Date](./Day%2003/readme.md)     |
+| 04  |    [Conditionals](./Day%2004/readme.md)     |
+| 05  |    [Arrays](./Day%2005/readme.md)     |
+| 06  |    [Loops](./Day%2006/readme.md)     |
+| 07  |    [Functions](./Day%2007/readme.md)     |
+| 08  |    [Objects](./Day%2008/readme.md)     |
+| 09  |    [Higher Order Functions](./Day%2009/readme.md)     |
+| 10  |    [Sets & Maps](./Day%2010/readme.md)     |
+| 11  |    [Destructuring & Spreading](./Day%2011/readme.md)     |
+| 12  |    [Regular Expressions](./Day%2012/readme.md)     |
+| 13  |    [Console Object Methods](./Day%2013/readme.md)     |
+| 14  |    [Error Handling](./Day%2014/readme.md)     |
+| 15  |    [Classes](./Day%2015/readme.md)     |
+| 16  |    [JSON](./Day%2016/readme.md)     |
+| 17  |    [Web Storages](./Day%2017/readme.md)     |
+| 18  |    [Promises](./Day%2018/readme.md)     |
+| 19  |    [Closure](./Day%2019/readme.md)     |
+| 20  |    [Clean Code](./Day%2020/readme.md)     |
 
 ---
 # 30 Days Of JavaScript: Introduction

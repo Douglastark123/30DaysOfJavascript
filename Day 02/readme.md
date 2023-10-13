@@ -1,5 +1,5 @@
 # 30 Days Of JavaScript: Data Types
-[<< Day 01](../readme.md) | [Day 03 >>](../Day%2003/readme.md)
+[<< Day 01](../readme.md) || [Day 03 >>](../Day%2003/readme.md)
 ![Thirty Days Of Javascript](../images//day_02.png)
 - [📔 Day 02](#-day-2)
     - [Data Types](#data-types)
@@ -135,4 +135,4 @@ parseFloat("3.14") || Number("3.14") // String to float.
 parseInt(3.14) // float to integer.
 ```
 
-[<< Day 01](../readme.md) | [Day 03 >>](../Day%2003/readme.md)
+[<< Day 01](../readme.md) || [Day 03 >>](../Day%2003/readme.md)
